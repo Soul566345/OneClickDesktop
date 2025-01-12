@@ -23,6 +23,10 @@ A one-click script that installs a remote desktop environment on a Linux server 
 ```
 wget https://raw.githubusercontent.com/Soul566345/OneClickDesktop/master/OneClickDesktop_zh-CN.sh && sudo bash OneClickDesktop_zh-CN.sh
 ```
+
+```
+wget https://raw.githubusercontent.com/Soul566345/OneClickDesktop/master/OneClickDesktop.sh && sudo bash OneClickDesktop.sh
+```
 * The script will guide you through the installation process.
 * If you encounter any errors, please check the `OneClickDesktop.log` file that's located within the same directory where you download this script.
 * Please consider reporting the error log at https://github.com/Har-Kuun/OneClickDesktop/issues so that I can fix any underlying issues.
