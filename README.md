@@ -1,25 +1,23 @@
-# OneClickDesktop
-A one-click script that installs a remote desktop environment on a Linux server with browser/VNC/RDP access.
+OneClickDesktop
+一个一键脚本，可以在 Linux 服务器上安装远程桌面环境，支持浏览器/VNC/RDP 访问。
 
-## Features of this script
-* Build Guacamole Server from source.
-* Set up Guacamole Web APP.
-* Install Tomcat 9, XRDP (or TigerVNC), XFCE4 Desktop, Firefox.
-* One-click free SSL certificates from Let's Encrypt
-* You can access your remote desktop from browsers, no need for RDP or VNC software.
-
-## System requirement
-* A __freshly installed__ server, with Ubuntu 18.04/20.04 LTS 64 bit, Debian 10 64 bit, or CentOS 7/8 64 bit system
-* __Do NOT install any web server programs (e.g., Apache, Nginx, LiteSpeed, Caddy).  Do NOT install LAMP or LEMP stack.  Do NOT install any admin panels (e.g., cPanel, DirectAdmin, BTcn, VestaCP).  They are NOT compatible with this script.__
-* 1 IPv4
-* For Debian/Ubuntu users, at least 1.0 GB RAM is required; 1.5+ GB is recommended.
-* For CentOS users, at least 1.5 GB RAM is required; 2.0+ GB is recommended.
-* Root access, or sudo user
-
-## How to use
-* Firstly, you need to find a spare VPS with at least 1 IPv4, and install Ubuntu 18.04/20.04 LTS 64 bit (recommended), Debian 10 64 bit, or CentOS 7/8 64 bit OS.
-* You need a domain name (can be a subdomain) which points to the IP address of your server.
-* Then, please run the following command as a sudo user in SSH.
+  该脚本的特点
+从源代码构建 Guacamole Server。
+设置 Guacamole Web APP。
+安装 Tomcat 9、XRDP（或 TigerVNC）、XFCE4 桌面、Firefox。
+一键免费 SSL 证书来自 Let's Encrypt
+您可以通过浏览器访问远程桌面，无需 RDP 或 VNC 软件。
+  系统要求
+一台新安装的服务器，运行 Ubuntu 18.04/20.04 LTS 64 位、Debian 10 64 位或 CentOS 7/8 64 位系统。
+请勿安装任何网页服务器程序（例如，Apache、Nginx、LiteSpeed、Caddy）。请勿安装 LAMP 或 LEMP 堆栈。请勿安装任何管理面板（例如，cPanel、DirectAdmin、BTcn、VestaCP）。它们与此脚本不兼容。
+1 IPv4
+对于 Debian/Ubuntu 用户，至少需要 1.0 GB 的 RAM；推荐 1.5 GB 或更多。
+对于 CentOS 用户，至少需要 1.5 GB 的 RAM；推荐使用 2.0 GB 或更高。
+根访问或 sudo 用户
+  如何使用
+首先，您需要找到一个至少有 1 个 IPv4 的备用 VPS，并安装 Ubuntu 18.04/20.04 LTS 64 位（推荐）、Debian 10 64 位或 CentOS 7/8 64 位操作系统。
+您需要一个域名（可以是子域名），指向您服务器的 IP 地址。
+然后，请在 SSH 中以 sudo 用户身份运行以下命令。
 * 中文报错
 ```
 wget https://raw.githubusercontent.com/Soul566345/OneClickDesktop/master/OneClickDesktop_zh-CN.sh && sudo bash OneClickDesktop_zh-CN.sh
