@@ -20,10 +20,11 @@ A one-click script that installs a remote desktop environment on a Linux server 
 * Firstly, you need to find a spare VPS with at least 1 IPv4, and install Ubuntu 18.04/20.04 LTS 64 bit (recommended), Debian 10 64 bit, or CentOS 7/8 64 bit OS.
 * You need a domain name (can be a subdomain) which points to the IP address of your server.
 * Then, please run the following command as a sudo user in SSH.
+* 中文报错
 ```
 wget https://raw.githubusercontent.com/Soul566345/OneClickDesktop/master/OneClickDesktop_zh-CN.sh && sudo bash OneClickDesktop_zh-CN.sh
 ```
-
+英文不报错
 ```
 wget https://raw.githubusercontent.com/Soul566345/OneClickDesktop/master/OneClickDesktop.sh && sudo bash OneClickDesktop.sh
 ```
